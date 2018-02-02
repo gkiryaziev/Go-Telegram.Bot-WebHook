@@ -55,7 +55,7 @@ type Chat struct {
 	UserName                     string `json:"username"`
 	Type                         string `json:"type"`
 	Title                        string `json:"title"`
-	AllMmembersAreAdministrators bool   `json:"all_members_are_administrators"`
+	AllMembersAreAdministrators  bool   `json:"all_members_are_administrators"`
 }
 
 // Entities struct
